@@ -25,4 +25,4 @@ Must be case insensitive.
 
 def XO(s):
     s = s.lower()
-    return sum(1 for x in s if x == 'x') == sum(1 for o in s if o == 'o')
+    return s.count('x') == s.count('o')
