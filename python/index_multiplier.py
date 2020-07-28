@@ -17,4 +17,4 @@ All items in the list will be integers.
 
 
 def index_multiplier(lst):
-    return sum([i * v for i, v in enumerate(lst)])
+    return sum(i * v for i, v in enumerate(lst))

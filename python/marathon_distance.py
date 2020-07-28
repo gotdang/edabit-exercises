@@ -25,4 +25,4 @@ Return False if the arguments are empty or not provided.
 """
 
 def marathon_distance(lst, expected_distance=25):
-    return expected_distance == sum([abs(x) for x in lst])
+    return expected_distance == sum(abs(x) for x in lst)
